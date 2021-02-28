@@ -3,19 +3,22 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		C12C5D4425EB59320091324B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12C5D4325EB59320091324B /* AppDelegate.swift */; };
 		C12C5D4625EB59320091324B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12C5D4525EB59320091324B /* SceneDelegate.swift */; };
-		C12C5D4825EB59320091324B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12C5D4725EB59320091324B /* ViewController.swift */; };
+		C12C5D4825EB59320091324B /* PaperOnBordingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12C5D4725EB59320091324B /* PaperOnBordingViewController.swift */; };
 		C12C5D4B25EB59320091324B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C12C5D4925EB59320091324B /* Main.storyboard */; };
 		C12C5D4E25EB59320091324B /* TestProduct.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C12C5D4C25EB59320091324B /* TestProduct.xcdatamodeld */; };
 		C12C5D5025EB59360091324B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C12C5D4F25EB59360091324B /* Assets.xcassets */; };
 		C12C5D5325EB59360091324B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C12C5D5125EB59360091324B /* LaunchScreen.storyboard */; };
 		C12C5D5E25EB59360091324B /* TestProductTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12C5D5D25EB59360091324B /* TestProductTests.swift */; };
 		C12C5D6925EB59360091324B /* TestProductUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12C5D6825EB59360091324B /* TestProductUITests.swift */; };
+		C12C5D7C25EB5C440091324B /* PaperOnboarding in Frameworks */ = {isa = PBXBuildFile; productRef = C12C5D7B25EB5C440091324B /* PaperOnboarding */; };
+		C12C5DB725EB947D0091324B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C12C5D4F25EB59360091324B /* Assets.xcassets */; };
+		C12C5DBE25EB974A0091324B /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12C5DBD25EB974A0091324B /* Images.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +42,7 @@
 		C12C5D4025EB59310091324B /* TestProduct.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestProduct.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C12C5D4325EB59320091324B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C12C5D4525EB59320091324B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C12C5D4725EB59320091324B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C12C5D4725EB59320091324B /* PaperOnBordingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaperOnBordingViewController.swift; sourceTree = "<group>"; };
 		C12C5D4A25EB59320091324B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C12C5D4D25EB59320091324B /* TestProduct.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TestProduct.xcdatamodel; sourceTree = "<group>"; };
 		C12C5D4F25EB59360091324B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +54,12 @@
 		C12C5D6425EB59360091324B /* TestProductUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestProductUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C12C5D6825EB59360091324B /* TestProductUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestProductUITests.swift; sourceTree = "<group>"; };
 		C12C5D6A25EB59360091324B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C12C5D7925EB5AE60091324B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		C12C5D8C25EB8EBA0091324B /* Nunito-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Regular.ttf"; sourceTree = "<group>"; };
+		C12C5D8D25EB8EBA0091324B /* Nunito-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Light.ttf"; sourceTree = "<group>"; };
+		C12C5D8E25EB8EBA0091324B /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Regular.ttf"; sourceTree = "<group>"; };
+		C12C5D8F25EB8EBA0091324B /* Nunito-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Bold.ttf"; sourceTree = "<group>"; };
+		C12C5DBD25EB974A0091324B /* Images.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C12C5D7C25EB5C440091324B /* PaperOnboarding in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +91,8 @@
 		C12C5D3725EB59310091324B = {
 			isa = PBXGroup;
 			children = (
+				C12C5DBC25EB97130091324B /* PaperOnBordingSource */,
+				C12C5D7925EB5AE60091324B /* README.md */,
 				C12C5D4225EB59320091324B /* TestProduct */,
 				C12C5D5C25EB59360091324B /* TestProductTests */,
 				C12C5D6725EB59360091324B /* TestProductUITests */,
@@ -101,9 +113,10 @@
 		C12C5D4225EB59320091324B /* TestProduct */ = {
 			isa = PBXGroup;
 			children = (
+				C12C5D8B25EB8EAB0091324B /* fonts */,
 				C12C5D4325EB59320091324B /* AppDelegate.swift */,
 				C12C5D4525EB59320091324B /* SceneDelegate.swift */,
-				C12C5D4725EB59320091324B /* ViewController.swift */,
+				C12C5D4725EB59320091324B /* PaperOnBordingViewController.swift */,
 				C12C5D4925EB59320091324B /* Main.storyboard */,
 				C12C5D4F25EB59360091324B /* Assets.xcassets */,
 				C12C5D5125EB59360091324B /* LaunchScreen.storyboard */,
@@ -131,6 +144,25 @@
 			path = TestProductUITests;
 			sourceTree = "<group>";
 		};
+		C12C5D8B25EB8EAB0091324B /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				C12C5D8F25EB8EBA0091324B /* Nunito-Bold.ttf */,
+				C12C5D8D25EB8EBA0091324B /* Nunito-Light.ttf */,
+				C12C5D8C25EB8EBA0091324B /* Nunito-Regular.ttf */,
+				C12C5D8E25EB8EBA0091324B /* OpenSans-Regular.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		C12C5DBC25EB97130091324B /* PaperOnBordingSource */ = {
+			isa = PBXGroup;
+			children = (
+				C12C5DBD25EB974A0091324B /* Images.swift */,
+			);
+			path = PaperOnBordingSource;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,6 +179,9 @@
 			dependencies = (
 			);
 			name = TestProduct;
+			packageProductDependencies = (
+				C12C5D7B25EB5C440091324B /* PaperOnboarding */,
+			);
 			productName = TestProduct;
 			productReference = C12C5D4025EB59310091324B /* TestProduct.app */;
 			productType = "com.apple.product-type.application";
@@ -218,6 +253,9 @@
 				Base,
 			);
 			mainGroup = C12C5D3725EB59310091324B;
+			packageReferences = (
+				C12C5D7A25EB5C440091324B /* XCRemoteSwiftPackageReference "paper-onboarding" */,
+			);
 			productRefGroup = C12C5D4125EB59310091324B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -251,6 +289,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C12C5DB725EB947D0091324B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,10 +300,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C12C5D4825EB59320091324B /* ViewController.swift in Sources */,
+				C12C5D4825EB59320091324B /* PaperOnBordingViewController.swift in Sources */,
 				C12C5D4E25EB59320091324B /* TestProduct.xcdatamodeld in Sources */,
 				C12C5D4425EB59320091324B /* AppDelegate.swift in Sources */,
 				C12C5D4625EB59320091324B /* SceneDelegate.swift in Sources */,
+				C12C5DBE25EB974A0091324B /* Images.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -597,6 +637,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C12C5D7A25EB5C440091324B /* XCRemoteSwiftPackageReference "paper-onboarding" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Ramotion/paper-onboarding";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.1.5;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C12C5D7B25EB5C440091324B /* PaperOnboarding */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C12C5D7A25EB5C440091324B /* XCRemoteSwiftPackageReference "paper-onboarding" */;
+			productName = PaperOnboarding;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		C12C5D4C25EB59320091324B /* TestProduct.xcdatamodeld */ = {
